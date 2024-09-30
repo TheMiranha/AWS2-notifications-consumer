@@ -1,0 +1,32 @@
+{
+  "name": "notifications-consumer",
+  "module": "src/index.ts",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5",
+    "@types/bun": "latest",
+    "@types/dockerode": "^3.3.31",
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.6",
+    "ts-node": "^10.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "dockerode": "^4.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.0",
+    "uuid": "^10.0.0",
+    "winston": "^3.14.2",
+    "winston-daily-rotate-file": "^5.0.0",
+    "winston-elasticsearch": "^0.19.0"
+  }
+}
